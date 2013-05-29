@@ -6,7 +6,7 @@ The Run Down
 
 This is all made for fun.  This is inspired by the very first chapter of the book
 "Violent Python"[#]_.  Go read that book, it's a lot of fun! All proceeds from 
-sales of Violent Python will go directly towards the Wounded Warrior Project[#]_.
+sales of Violent Python will go directly towards the Wounded Warrior Project [#]_.
 
 The goals of this project are as follows:
     
