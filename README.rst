@@ -5,8 +5,8 @@ The Run Down
 ============
 
 This is all made for fun.  This is inspired by the very first chapter of the book
-"Violent Python"[1].  Go read that book, it's a lot of fun! All proceeds from 
-sales of Violent Python will go directly towards the Wounded Warrior Project[2].
+"Violent Python"[#]_.  Go read that book, it's a lot of fun! All proceeds from 
+sales of Violent Python will go directly towards the Wounded Warrior Project[#]_.
 
 The goals of this project are as follows:
     
@@ -35,6 +35,6 @@ The included dictionary file "british-english" is copied from my Ubuntu 12.04.2 
 Shenanigans and Links
 =====================
 
-[1] http://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579/
+.. [#] http://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579/
 
-[2] http://www.woundedwarriorproject.org/
+.. [#] http://www.woundedwarriorproject.org/
