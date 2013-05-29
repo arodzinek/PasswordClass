@@ -24,6 +24,14 @@ laws before you go and do something rash.
 Also:  Be sure to follow this in order, atleast the first time.  Some files 
 will purposely overwrite one another.  It's ok.
 
+
+Credit Where Credit is Due
+==========================
+
+Thank you to the class for giving me the chance to share.  Thank you Esther for giving me a shot at showing the class something fun and cool.
+
+The included dictionary file "british-english" is copied from my Ubuntu 12.04.2 distribution.  
+
 Shenanigans and Links
 =====================
 
