@@ -1,4 +1,4 @@
-from crypt import crypt
+from hashlib import md5
 
 """
 Rule #1: Keep it fun
@@ -16,18 +16,26 @@ We're going to write a plaintext password, and an encrypted password
 """
 
 passwords_of_good = ["burrito", "Burrito", "pickle", "cashew", "laser", "Python"]
+salt = "saltysaltgoodness"
+plaintext_filename = "my_new_passwords_plaintext.txt"
+encrypted_filename = "my_new_passwords_encrypted.txt"
+#TODO both filenames
 
-file_plaintext = open("./my_new_passwords_plaintext.txt", "w")
-file_encrypted = open("./my_new_passwords_encrypted.txt", "w")
-# Something we're used to
+# w is for write mode
+plaintext_file = open(plaintext_filename, "w") 
+encrypted_file = open(encrypted_filename, "w")
+
+# Something we're used to, this is our header
 print "word:\t\tencrypted\n"
 
+# for every password of good, let's encrypt it, and add the plain password to the
+# plain file and the encrypted version in the encrypted file
 for word in passwords_of_good:
-    encrypted_result = word + "\t\t" + crypt(word, "salt")
-    print encrypted_result
-    file_plaintext.writelines(word + "\n")
-    file_encrypted.writelines(crypt(word, "salt") + "\n")
+    encrypted_result = md5(word + salt).hexdigest()
+    print "word : {}\t\tencrypted: {}".format(word, encrypted_result)
+    plaintext_file.write("{}\n".format(word))
+    encrypted_file.write("{}\n".format(encrypted_result))
 
 # Close the file
-file_plaintext.close()
-file_encrypted.close()
+plaintext_file.close()
+encrypted_file.close()

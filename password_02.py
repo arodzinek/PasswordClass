@@ -1,25 +1,20 @@
 from crypt import crypt
 
 """
-Rule #1: Keep it fun
-
-Our goal is to learn how to open files.  Once we can open files we have all of 
-the power required to *BREAK PASSWORDS*
-
-Use your new found power for good!
-"""
-
-
-"""
 Make it rain file descriptors!
 
 Open the file, "a" means "append".  This will also create a file if one does 
 not already exist.
 """
-f = open("./my_new_passwords.txt", "a")
+filename = "my_encrypted_passwords.txt"
 
-#  Write it out
-f.write("Hello World\n")
+# The write permission used is 'a', for "append or create if doesn't exist"
+myfile = open(filename, "a")
+
+#  Write to the file
+myfile.write("Hello World\n")
 
 # Close the file
-f.close()
+myfile.close()
+
+# Look at how easy files really are.  We haven't done anything different.

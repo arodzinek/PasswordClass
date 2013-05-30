@@ -1,18 +1,19 @@
-from crypt import crypt
-
+from hashlib import md5
 """
 Rule #1: Keep it fun
 
-Our goal is to learn how to open files.  Once we can open files we have all of 
-the power required to *BREAK PASSWORDS*
+* Our goal is to learn how to open files.  
+* Once we can open files we have all of  the power required to *BREAK PASSWORDS*
 
 Use your new found power for good!
 """
+password = 'things'
+salt = 'mysalt'
 
+combined_password = password + salt
 
-"""
-Crypt takes 2 arguments, the password and the salt.
-The statement below will print the result of encrypting the password "things" 
-the salt "salt"
-"""
-print crypt("things", "salt")
+print "Combined password: {}".format(combined_password)
+
+encrypted_string = md5(password + salt).hexdigest()
+
+print "Encrypted Password: {}".format(encrypted_string)

@@ -11,7 +11,7 @@ sales of Violent Python will go directly towards the Wounded Warrior Project[2].
 The goals of this project are as follows:
     
     * Learn about opening and manipulating files
-    * Learn just how fast a laptop can be
+    * Learn just how fast a laptop can be with some simple Python code
     * See for yourself why plaintext passwords are for babies!
 
 
@@ -29,11 +29,12 @@ Credit Where Credit is Due
 ==========================
 
 Thank you to the class for giving me the chance to share.  Thank you Esther for giving me a shot at showing the class something fun and cool.
+Thank you Andrew for teaming up with Esther to keep sanity in this project, all the while maintaining "knowing nothing"!
 
 The included dictionary file "british-english" is copied from my Ubuntu 12.04.2 distribution.  
 
-Shenanigans and Links
-=====================
+Links
+=====
 
 [1] http://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579/
 
