@@ -1,5 +1,3 @@
-from crypt import crypt
-
 """
 Make it rain file descriptors!
 
