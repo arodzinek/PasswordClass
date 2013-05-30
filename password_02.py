@@ -12,6 +12,8 @@ myfile = open(filename, "a")
 #  Write to the file
 myfile.write("Hello World\n")
 
+# A warning:
+print "Please look at the file {}".format(filename)
 # Close the file
 myfile.close()
 
